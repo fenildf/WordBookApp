@@ -1,0 +1,22 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:context="com.example.noaha.wordbookapp.MainActivity">
+    <item
+        android:id="@+id/action_search"
+        android:orderInCategory="100"
+        android:title="@string/action_search"
+        app:showAsAction="never" />
+
+    <item
+        android:id="@+id/action_insert"
+        android:orderInCategory="100"
+        android:title="@string/action_insert"
+        app:showAsAction="never" />
+
+    <item
+        android:id="@+id/action_youdao"
+        android:orderInCategory="100"
+        android:title="@string/action_youdao"
+        app:showAsAction="never" />
+</menu>
